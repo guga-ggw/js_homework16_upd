@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #0080ff;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 2px 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+#inp{
+  box-shadow: 2px 1px 5px 1px ;
+  border-radius: 10px;
+  padding: 10px 5px;
+}
+
+.todo-list,
+.completed-list {
+  flex: 1;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 10px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #343a40;
+  border-bottom: 2px solid #343a40;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+  padding: 10px 0;
+}
+
+.completed-task {
+  color: #208d39;
+}
+
+.delete-button {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.delete-button:hover {
+  color: #dc3545;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.todo-list,
+.in-progress-list,
+.completed-list {
+  flex: 1;
+  background-color: rgba(175, 84, 84, 0.13);
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(175, 1, 1, 0.1);
+}
+
+.todo-list h2,
+.in-progress-list h2,
+.completed-list h2 {
+  color: #343a40;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.in-progress-list{
+  background-color: red;
+}
+
+#progress{
+  background-color: rgba(236, 69, 69, 0.13);
+}
+
+#progress button{
+  background-color: #53c46e;
+  color: white;
+  font-family: 900;
+  font-family: sans-serif;
+}
